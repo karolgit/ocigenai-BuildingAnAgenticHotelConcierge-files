@@ -27,7 +27,7 @@ from datetime import datetime
 
 OCIDS_FILE = "GENERATED_OCIDS.txt"
 #BUCKET_NAME = "ai-workshop-labs-datasets"
-FILE_TO_UPLOAD = "TripAdvisorReviewsMultiLang.md"
+FILE_TO_UPLOAD = "TripAdvisorReviewsMultiLangCSV_to_text_small.txt"
 
 def generate_unique_bucket_name(base_name="ai-workshop-labs-datasets"):
     """Generate a unique bucket name using timestamp."""
